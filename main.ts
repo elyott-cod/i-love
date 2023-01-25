@@ -11,6 +11,8 @@ basic.showString("je")
 basic.pause(5000)
 basic.forever(function () {
     for (let index = 0; index < 3; index++) {
+        basic.showString("papa")
+        basic.showString("je")
         basic.showIcon(IconNames.Heart)
     }
 })
